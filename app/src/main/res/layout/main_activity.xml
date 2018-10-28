@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical">
+
+    <com.dramtar.library.ImagesGridView
+        android:id="@+id/grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="14dp"
+        android:horizontalSpacing="4dp"
+        android:scaleType="centerCrop"
+        android:verticalSpacing="4dp">
+    </com.dramtar.library.ImagesGridView>
+</FrameLayout>
